@@ -1,0 +1,17 @@
+Name Entity Recognization (NER)
+
+Application : 1. Resume parser/ATS
+                 (Information from the Job Description ), Extract meaningful information from the Resume
+                 and check the similarity of both. 
+                 similarity metrics generally used are: Cosine similarity
+    
+    Example: Bill gates is a founder of Microsoft
+             Bill (B-Person) gates (I-Person) is (O) a (O) founder (Designation) of (O) Microsoft (Organization)
+           (B-Person) (I-Person)
+
+ATS: Information may needs to be extract: Based on Job Description (Experience, based on role) 
+     Match with JD and check the cosine similarity (Let say: Cutoff is 70% or 80%)
+
+
+     Step1. Create a new Git hub repository
+     
