@@ -14,4 +14,18 @@ ATS: Information may needs to be extract: Based on Job Description (Experience, 
 
 
      Step1. Create a new Git hub repository
-     
+
+     #NLP use case here: Token classification
+          Bert based model can be used with PyTorch 
+          (PyTorch easy of writing code and understand) whereas Tensorflow requires more line of code
+          #Installing Cuda (better 12.1) is required
+
+PyTorch installation:
+# pip install torch  --extra-index-url https://download.pytorch.org/whl/cpu
+
+
+workflow:
+1. Template creation
+2. Requirements and Setup
+3. 
+  

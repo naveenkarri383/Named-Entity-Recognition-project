@@ -9,3 +9,6 @@ git commit -m "Updated"
 
 git push origin main
 ```
+
+```bash
+conda activate nerproject
