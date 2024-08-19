@@ -30,3 +30,11 @@ workflow:
 3. Install Requirements and Setup
 4. 
   
+
+
+# Note book experiments
+# Data ingestion component
+# Data transformation component
+
+
+# here we dont use MLflow, DVC
