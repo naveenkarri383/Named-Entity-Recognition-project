@@ -26,6 +26,7 @@ PyTorch installation:
 
 workflow:
 1. Template creation
-2. Requirements and Setup
-3. 
+2. Activate environment ( conda activate nerproject)
+3. Install Requirements and Setup
+4. 
   
