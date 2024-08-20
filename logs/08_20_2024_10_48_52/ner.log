@@ -1,0 +1,9 @@
+[ 2024-08-20 10:48:58,718 ] 102 root - INFO - Started Model training >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[ 2024-08-20 10:48:58,718 ] 35 root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[ 2024-08-20 10:48:58,718 ] 37 root - INFO - Getting the data from Google cloud storage
+[ 2024-08-20 10:48:58,718 ] 48 root - INFO - Entered the initiate_data_ingestion method of data ingestion class
+[ 2024-08-20 10:48:58,720 ] 56 root - INFO - Created DataIngestionArtifacts directory.
+[ 2024-08-20 10:48:58,720 ] 21 root - INFO - Entered the get_data_from_gcp method of data ingestion class
+[ 2024-08-20 10:48:58,753 ] 26 root - INFO - Exited the get_data_from_gcp method of data ingestion class
+[ 2024-08-20 10:48:58,753 ] 66 root - INFO - Got the file from Google cloud storage. File name - archive.zip
+[ 2024-08-20 10:48:58,753 ] 33 root - INFO - Entered the extract_data method of Data ingestion class

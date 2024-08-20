@@ -38,3 +38,12 @@ workflow:
 
 
 # here we dont use MLflow, DVC
+
+C:\Users\USER>E:
+
+E:\>cd
+E:\
+
+E:\>cd "Data Scientist\Data_Science_Projects\Named-Entity-Recognition-project"
+
+E:\Data Scientist\Data_Science_Projects\Named-Entity-Recognition-project>gcloud init

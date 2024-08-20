@@ -16,3 +16,10 @@ class DataTransformationArtifacts:
     df_val_path: str
     df_test_path: str
     unique_labels_path: str
+
+# Model Training Artifacts
+@dataclass
+class ModelTrainingArtifacts:
+    bert_model_path: str
+    tokenizer_file_path: str
+
