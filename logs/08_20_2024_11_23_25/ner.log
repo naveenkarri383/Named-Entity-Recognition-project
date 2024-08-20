@@ -1,0 +1,38 @@
+[ 2024-08-20 11:23:34,633 ] 149 root - INFO - Started Model training >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[ 2024-08-20 11:23:34,635 ] 37 root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[ 2024-08-20 11:23:34,635 ] 39 root - INFO - Getting the data from Google cloud storage
+[ 2024-08-20 11:23:34,635 ] 48 root - INFO - Entered the initiate_data_ingestion method of data ingestion class
+[ 2024-08-20 11:23:34,635 ] 56 root - INFO - Created DataIngestionArtifacts directory.
+[ 2024-08-20 11:23:34,635 ] 21 root - INFO - Entered the get_data_from_gcp method of data ingestion class
+[ 2024-08-20 11:23:43,501 ] 26 root - INFO - Exited the get_data_from_gcp method of data ingestion class
+[ 2024-08-20 11:23:43,501 ] 66 root - INFO - Got the file from Google cloud storage. File name - archive.zip
+[ 2024-08-20 11:23:43,501 ] 33 root - INFO - Entered the extract_data method of Data ingestion class
+[ 2024-08-20 11:23:43,675 ] 41 root - INFO - Exited the extract_data method of Data ingestion class
+[ 2024-08-20 11:23:43,675 ] 75 root - INFO - Extracted the data from zip file.
+[ 2024-08-20 11:23:43,675 ] 81 root - INFO - Exited the initiate_data_ingestion method of data ingestion class
+[ 2024-08-20 11:23:43,675 ] 44 root - INFO - Got the data from Google cloud storage
+[ 2024-08-20 11:23:43,675 ] 45 root - INFO - Exited the start_data_ingestion method of TrainPipeline class
+[ 2024-08-20 11:23:43,675 ] 57 root - INFO - Entered the start_data_transformation method of TrainPipeline class
+[ 2024-08-20 11:23:43,675 ] 65 root - INFO - Entered the initiate_data_transformation method of Data transformation class
+[ 2024-08-20 11:23:43,675 ] 74 root - INFO - Created DataTransformationArtifacts directory.
+[ 2024-08-20 11:23:43,943 ] 30 root - INFO - Entered the splitting_data method of Data transformation class
+[ 2024-08-20 11:23:43,959 ] 49 root - INFO - Exited the splitting_data method of Data transformation class
+[ 2024-08-20 11:23:43,959 ] 87 root - INFO - Splitted the data
+[ 2024-08-20 11:23:43,959 ] 93 root - INFO - Saved the labels to ids pickle file to Artifacts directory. File name - labels_to_ids.pkl
+[ 2024-08-20 11:23:43,959 ] 101 root - INFO - Saved the ids to labels pickle file to Artifacts directory. File name - ids_to_labels.pkl
+[ 2024-08-20 11:23:47,528 ] 110 root - INFO - Uploaded the ids to labels pickle file to Google cloud storage. File name - ids_to_labels.pkl
+[ 2024-08-20 11:23:47,528 ] 118 root - INFO - Saved the train df pickle file to Artifacts directory. File name - df_train.pkl
+[ 2024-08-20 11:23:47,528 ] 125 root - INFO - Saved the val df pickle file to Artifacts directory. File name - df_val.pkl
+[ 2024-08-20 11:23:47,533 ] 133 root - INFO - Saved the test df pickle file to Artifacts directory. File name - df_test.pkl
+[ 2024-08-20 11:23:47,534 ] 141 root - INFO - Saved the unique labels pickle file to Artifacts directory. File name - unique_labels.pkl
+[ 2024-08-20 11:23:47,534 ] 153 root - INFO - Exited the initiate_data_transformation method of Data transformation class
+[ 2024-08-20 11:23:47,539 ] 70 root - INFO - Performed the data validation operation
+[ 2024-08-20 11:23:47,539 ] 71 root - INFO - Exited the start_data_transformation method of TrainPipeline class
+[ 2024-08-20 11:23:47,539 ] 83 root - INFO - Entered the start_model_training method of Train pipeline class
+[ 2024-08-20 11:23:47,539 ] 113 root - INFO - Entered the initiate_model_training method of Model training class
+[ 2024-08-20 11:23:47,539 ] 117 root - INFO - Created ModelTrainingArtifacts directory.
+[ 2024-08-20 11:23:48,135 ] 121 root - INFO - Downloaded tokenizer
+[ 2024-08-20 11:23:48,151 ] 130 root - INFO - Loaded unique_labels.pkl pickle file from artifacts directory.
+[ 2024-08-20 11:23:48,185 ] 137 root - INFO - Loaded df_train.pkl pickle file from artifacts directory.
+[ 2024-08-20 11:23:48,203 ] 144 root - INFO - Loaded df_val.pkl pickle file from artifacts directory.
+[ 2024-08-20 11:23:48,218 ] 151 root - INFO - Loaded labels_to_ids.pkl pickle file from artifacts directory.

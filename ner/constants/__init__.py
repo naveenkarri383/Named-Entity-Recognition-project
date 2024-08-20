@@ -36,3 +36,6 @@ BATCH_SIZE = 2
 BERT_MODEL_INSTANCE_NAME = "bert_model_instance.pt"
 TOKENIZER_FILE_NAME = "tokenizer.pkl"
 
+
+# Model evaluation
+MODEL_EVALUATION_ARTIFACTS_DIR = "ModelEvaluationArtifacts"

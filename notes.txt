@@ -28,13 +28,19 @@ workflow:
 1. Template creation
 2. Activate environment ( conda activate nerproject)
 3. Install Requirements and Setup
-4. 
-  
+4. Add constants
+5. Set config Entity
+6. Artifact Entity
+# Note book experiments (Trails on notebook and then transform into production grade code)
+7. Data ingestion
+8. Data transformation
+9. Model training
+10. Model Evaluation
+11. Model pusher
 
 
-# Note book experiments
-# Data ingestion component
-# Data transformation component
+
+
 
 
 # here we dont use MLflow, DVC

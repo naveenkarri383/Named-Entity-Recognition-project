@@ -23,3 +23,13 @@ class ModelTrainingArtifacts:
     bert_model_path: str
     tokenizer_file_path: str
 
+# Model Evaluation Artifacts
+@dataclass
+class ModelEvaluationArtifacts:
+    trained_model_accuracy: float
+    is_model_accepted: bool
+
+@dataclass
+class ModelPusherArtifacts:
+    bucket_name: str
+    trained_model_path: str
